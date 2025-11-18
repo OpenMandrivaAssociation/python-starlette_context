@@ -6,8 +6,9 @@ Summary:	Middleware for Starlette that allows you to store and access the contex
 URL:		https://pypi.org/project/starlette_context/
 License:	MIT
 Group:		Development/Python
-BuildRequires:	python
 BuildSystem:	python
+BuildRequires:	python
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildArch:	noarch
 
 %description
