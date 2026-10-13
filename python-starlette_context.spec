@@ -3,7 +3,7 @@
 
 Name:		python-starlette_context
 Version:	0.5.1
-Release:	1
+Release:	2
 Summary:	Middleware for Starlette that allows you to store and access the context data of a request
 License:	MIT
 Group:		Development/Python
